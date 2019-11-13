@@ -1,0 +1,131 @@
+﻿<Window x:Class="NetSim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:converter="clr-namespace:NetSim.Converter"
+        xmlns:simulator="clr-namespace:NetSim.Lib.Simulator;assembly=NetSim.Lib"
+        xmlns:properties="clr-namespace:NetSim.Properties"
+        mc:Ignorable="d" 
+        Icon="netsim.ico"
+        Title="NetSim" MinHeight="350" MinWidth="600" Width="1000" Height="500" >
+    <Window.Resources>
+        <converter:ProtocolTypeToBoolConverter x:Key="protocolConverter"/>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding StartSimulationCommand}" Key="F5" />
+        <KeyBinding Command="{Binding ResetSimulationCommand}" Key="F8" />
+        <KeyBinding Command="{Binding PerformStepCommand}" Key="F10" />
+        <KeyBinding Command="{Binding PerformStepCommand}" Key="F11" />
+        <KeyBinding Command="{Binding PauseSimulationCommand}" Key="F6" />
+        <KeyBinding Command="{Binding LoadNetworkCommand}" Key="O" Modifiers="Ctrl" />
+        <KeyBinding Command="{Binding SaveNetworkCommand}" Key="S" Modifiers="Ctrl" />
+        <KeyBinding Command="{Binding ShowHelpCommand}" Key="H" Modifiers="Ctrl" />
+        <KeyBinding Command="{Binding ShowHelpCommand}" Key="F1" />
+    </Window.InputBindings>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Save" Command="{Binding SaveNetworkCommand}" InputGestureText="Ctrl + S"></MenuItem>
+                <MenuItem Header="Load" Command="{Binding LoadNetworkCommand}" InputGestureText="Ctrl + O"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Exit" Command="{Binding CloseApplicationCommand}"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" MinWidth="300"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0" Background="#FFEEEEEE" Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Vertical">
+                    <TextBlock Margin="5" FontWeight="Bold">Network Creation</TextBlock>
+                    <ToggleButton Margin="5" IsChecked="{Binding IsView, Mode=TwoWay}" ToolTip="{x:Static properties:Resources.ViewMode_Tooltip}" >
+                        <StackPanel Orientation="Horizontal">
+                            <Path Width="10" Height="10" Stretch="Uniform" Fill="Black" Data="F1 M 477.366,32.4489C 470.432,35.802 462.011,33.0596 458.558,26.3193C 455.103,19.5833 457.927,11.3994 464.867,8.04321C 471.8,4.69006 480.222,7.4342 483.675,14.1729C 487.123,20.9102 484.303,29.0901 477.366,32.4489 Z M 489.398,50.2073L 481.138,34.0914C 488.075,29.3633 490.6,20.2981 486.712,12.7021C 482.423,4.33691 471.967,0.928711 463.351,5.09277C 454.739,9.26074 451.234,19.4209 455.52,27.7913C 459.414,35.3821 468.384,38.8887 476.447,36.3619L 484.703,52.4756C 485.051,53.1487 485.924,53.4045 486.66,53.0488L 488.688,52.0686C 489.427,51.7129 489.742,50.8782 489.398,50.2073 Z " UseLayoutRounding="False"/>
+                            <TextBlock Margin="5 0 0 0">View Details Mode</TextBlock>
+                        </StackPanel>
+                    </ToggleButton>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ToggleButton Grid.Column="0" Margin="5" IsChecked="{Binding IsCreateNode, Mode=TwoWay}" ToolTip="{x:Static properties:Resources.CreateNode_Tooltip}" >Create Nodes</ToggleButton>
+                        <ToggleButton Grid.Column="1" Margin="5" IsChecked="{Binding IsCreateEdge, Mode=TwoWay}" ToolTip="{x:Static properties:Resources.CreateEdge_Tooltip}">Create Edges</ToggleButton>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Vertical">
+
+                    <TextBlock Margin="5" FontWeight="Bold">Control Simulation</TextBlock>
+                    <Grid Margin="5 0 5 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Button Grid.Row="0" Grid.Column="0" Margin="5" Command="{Binding StartSimulationCommand}">
+                            <TextBlock>
+                                <Run>Start</Run>
+                                <Run FontSize="9" Foreground="Gray"></Run>
+                            </TextBlock>
+                        </Button>
+                        <Button Grid.Row="0" Grid.Column="1" Margin="5" Command="{Binding PauseSimulationCommand}">
+                            <TextBlock>
+                                <Run>Pause</Run>
+                                <Run FontSize="9" Foreground="Gray"></Run>
+                            </TextBlock>
+                        </Button>
+                        <Button Grid.Row="0" Grid.Column="2" Margin="5" Command="{Binding PerformStepCommand}" IsEnabled="{Binding IsStepEnabled, UpdateSourceTrigger=PropertyChanged}">
+                            <TextBlock>
+                                <Run>Step</Run>
+                                <Run FontSize="9" Foreground="Gray"></Run>
+                            </TextBlock>
+                        </Button>
+                        <Button Grid.Row="0" Grid.Column="3" Margin="5" Command="{Binding ResetSimulationCommand}" >
+                            <TextBlock>
+                                <Run>Reset</Run>
+                                <Run FontSize="9" Foreground="Gray"></Run>
+                            </TextBlock>
+                        </Button>
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" Margin="5 0 0 0">
+                        <TextBlock Grid.Column="0" TextAlignment="Left" VerticalAlignment="Center" FontSize="10">Simulation Step</TextBlock>
+                        <TextBlock Grid.Column="1" MinWidth="15" Text="{Binding Path=SimulationStep}" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10,0,0,0" TextAlignment="Left" ></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden" Margin="0 10 0 0">
+                    <Frame  Content="{Binding Path=DetailPage, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" NavigationUIVisibility="Hidden"/>
+                </ScrollViewer>
+            </Grid>
+            <Canvas Grid.Column="1" Grid.Row="0" Name="DrawCanvas" 
+                        MouseLeftButtonUp="DrawCanvasMouseLeftButtonUp" 
+                        MouseLeftButtonDown="DrawCanvasMouseLeftButtonDown" 
+                        MouseMove="DrawCanvasMouseMove" Background="WhiteSmoke" >
+            </Canvas>
+            <Grid Grid.Column="1" Grid.Row="1" Height="40" Background="#FFEEEEEE">
+                <Frame  Content="{Binding Path=ControlPage, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" NavigationUIVisibility="Hidden"/>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

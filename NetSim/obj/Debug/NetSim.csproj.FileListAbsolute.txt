@@ -1,0 +1,76 @@
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.exe.config
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.exe
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.Lib.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.Lib.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.csprojAssemblyReference.cache
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ConnectionPage.g.cs
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\MainWindow.g.cs
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ClientPage.g.cs
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\App.g.cs
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim_MarkupCompile.cache
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim_MarkupCompile.lref
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\App.baml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ConnectionPage.baml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\MainWindow.baml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ClientPage.baml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.g.resources
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.Properties.Resources.resources
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.csproj.GenerateResource.cache
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.csproj.CopyComplete
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.exe
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.exe.config
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.exe
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.Lib.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\System.Windows.Interactivity.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Newtonsoft.Json.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\NetSim.Lib.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\bin\Debug\Newtonsoft.Json.xml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.csprojAssemblyReference.cache
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ConnectionPage.g.cs
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\MainWindow.g.cs
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ClientPage.g.cs
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\App.g.cs
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim_MarkupCompile.cache
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim_MarkupCompile.lref
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\App.baml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ConnectionPage.baml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\MainWindow.baml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\DetailPages\ClientPage.baml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.g.resources
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.Properties.Resources.resources
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.csproj.GenerateResource.cache
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.csproj.CopyComplete
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.exe
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim\obj\Debug\NetSim.pdb

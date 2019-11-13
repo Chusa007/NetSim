@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{536CA1BF-70A5-4686-B10F-97D08ECD1BB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetSim.Lib</RootNamespace>
+    <AssemblyName>NetSim.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\MessageControl.xaml.cs">
+      <DependentUpon>MessageControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Annotations.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Routing\DSDV\DsdvRoutingProtocol.cs" />
+    <Compile Include="Routing\DSDV\DsdvSequence.cs" />
+    <Compile Include="Simulator\Messages\NetSimRequestCacheEntry.cs" />
+    <Compile Include="Routing\Helpers\MessageHandlerAttribute.cs" />
+    <Compile Include="Routing\Helpers\MessageHandlerResolver.cs" />
+    <Compile Include="Routing\Helpers\RoutingProtocolFactory.cs" />
+    <Compile Include="Simulator\Messages\ConnectionFrameMessage.cs" />
+    <Compile Include="Simulator\Messages\DataMessage.cs" />
+    <Compile Include="Simulator\INetSimConnectionEndpoint.cs" />
+    <Compile Include="Simulator\Messages\NetSimMessageTransmissionStep.cs" />
+    <Compile Include="Simulator\Messages\NetSimQueuedMessage.cs" />
+    <Compile Include="Simulator\Messages\NetSimSequence.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Storage\SimulationStorage.cs" />
+    <Compile Include="Storage\StorageConnection.cs" />
+    <Compile Include="Storage\StorageClient.cs" />
+    <Compile Include="Storage\StorageNetwork.cs" />
+    <Compile Include="Visualization\INetSimVisualizableItem.cs" />
+    <Compile Include="Simulator\Components\NetSimRoutingProtocol.cs" />
+    <Compile Include="Routing\DSDV\DsdvTable.cs">
+      <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Routing\DSDV\DsdvTableEntry.cs" />
+    <Compile Include="Routing\DSDV\DsdvUpdateMessage.cs" />
+    <Compile Include="Simulator\NetSimProtocolType.cs" />
+    <Compile Include="Simulator\Components\NetSimTableEntry.cs" />
+    <Compile Include="Visualization\IDrawableNetSimSimulator.cs" />
+    <Compile Include="Simulator\Components\NetSimItem.cs" />
+    <Compile Include="Simulator\Components\NetSimClient.cs" />
+    <Compile Include="Simulator\Components\NetSimConnection.cs" />
+    <Compile Include="Visualization\NetSimLocation.cs" />
+    <Compile Include="Simulator\Components\NetSimMessage.cs" />
+    <Compile Include="Simulator\NetSimSimulator.cs" />
+    <Compile Include="Simulator\Components\NetSimTable.cs">
+      <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Visualization\NetSimVisualizer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NetSim.Lib.Diagramm.cd" />
+    <None Include="NetSim.Lib.Overview.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\MessageControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\NetSim.Lib.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\NetSim.Lib.pdb
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.csprojAssemblyReference.cache
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\Controls\MessageControl.g.cs
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib_MarkupCompile.cache
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib_MarkupCompile.lref
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\Controls\MessageControl.baml
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.g.resources
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.csproj.CopyComplete
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.dll
+C:\Users\Руслан\Desktop\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\NetSim.Lib.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\NetSim.Lib.pdb
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\Newtonsoft.Json.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\bin\Debug\Newtonsoft.Json.xml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.csprojAssemblyReference.cache
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\Controls\MessageControl.g.cs
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib_MarkupCompile.cache
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib_MarkupCompile.lref
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\Controls\MessageControl.baml
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.g.resources
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.csproj.CopyComplete
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.dll
+D:\Мага\Защита ОС\NetSim-master\NetSim-master\NetSim\NetSim.Lib\obj\Debug\NetSim.Lib.pdb
